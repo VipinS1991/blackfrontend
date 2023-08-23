@@ -33,7 +33,7 @@ const login = (userDetails, navigate) => {
       localStorage.setItem("user", JSON.stringify(userDetails));
 
       dispatch(setUserDetails(userDetails));
-      navigate("/");
+      navigate("/home");
     }
   };
 };
@@ -50,7 +50,7 @@ const register = (userDetails, navigate) => {
       localStorage.setItem("user", JSON.stringify(userDetails));
 
       dispatch(setUserDetails(userDetails));
-      navigate("/");
+      navigate("/home");
     }
   };
 };
