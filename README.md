@@ -1,46 +1,52 @@
-# Getting Started with Create React App and Redux
+###login page
+![image](https://github.com/VipinS1991/blackfrontend/assets/124082461/90c961be-a54a-4fcd-9dbb-15aa8af18a75)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+###dashboard page
+![image](https://github.com/VipinS1991/blackfrontend/assets/124082461/b6fb25f5-9abc-4e11-89db-09cfab42688f)
 
-## Available Scripts
+###Add Friend dialog box
+![image](https://github.com/VipinS1991/blackfrontend/assets/124082461/766a6fa3-4c22-4c62-87da-d27ec999e3a6)
 
-In the project directory, you can run:
+###Group Video Chat
+![image](https://github.com/VipinS1991/blackfrontend/assets/124082461/8f1a04b0-6708-47fb-8f64-6d010b5bb224)
 
-### `npm start`
+###Logout and audio disabled option
+![image](https://github.com/VipinS1991/blackfrontend/assets/124082461/6112f869-5789-462e-826f-f58125828d46)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Screen Sharing option
+![image](https://github.com/VipinS1991/blackfrontend/assets/124082461/8a122370-1b08-4ed3-82a3-1604a1f70efe)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Black
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built with Node js, Express js, Mongoose(Object Modeling for MondgoDB), React Js.
 
-### `npm run build`
+### Functionalities
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Send Request & Accept Request.
+- Video Chat.
+- One - One Chat.
+- Camera Disabled Or Enabled.
+- JWT Authentication.
+- Screen Sharing option.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tech
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Frontend : [React Js](https://reactjs.org/)
+- Backend :  [Express js](https://expressjs.com/)
+- Style : [Material UI](https://mui.com/)
+- Database : [MongoDB Atlas](https://www.mongodb.com/)
+- Routing : [React Router Dom V6](https://reactrouter.com/)
 
-### `npm run eject`
+##### Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> Install npm dependencies using npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+$ cd app && npm install 
+$ cd server && npm install 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
