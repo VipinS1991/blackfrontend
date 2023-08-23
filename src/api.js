@@ -3,7 +3,7 @@ import axios from "axios";
 import { logout } from "./utils";
 
 const apiClient = axios.create({
-  baseURL: "https://backend-zt87.onrender.com",
+  baseURL: "https://backend-7e0w.onrender.com",
   timeout: 10000,
 });
 
