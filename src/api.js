@@ -3,8 +3,8 @@ import axios from "axios";
 import { logout } from "./utils";
 
 const apiClient = axios.create({
-  baseURL: "http://localhost:3002",
-  timeout: 1000,
+  baseURL: "https://backend-zt87.onrender.com",
+  timeout: 10000,
 });
 
 apiClient.interceptors.request.use(
