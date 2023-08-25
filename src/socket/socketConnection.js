@@ -13,7 +13,7 @@ let socket = null;
 
 export const connectWithSocketServer = (userDetails) => {
   const jwtToken = userDetails.token;
-  socket = io(process.env.REACT_APP_API, {
+  socket = io('https://backend-7e0w.onrender.com', {
     auth: {
       token: jwtToken,
     },
